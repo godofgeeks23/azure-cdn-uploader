@@ -1,19 +1,16 @@
 #!/bin/bash
 
-# Define the directory name
-dirname="imgs"
-upload_token="sp=xxxxxxxxxxxxxxx"
-read_token="sp=xxxxxxxxxxxxxxx"
-storage_account="emailassets1"
-container_name="mailimages"
+source ./.env
+dirname="files"
 
-storage_url="https://$storage_account.blob.core.windows.net/$container_name?$upload_token"
+storage_url="https://$STORAGE_ACCOUNT.blob.core.windows.net/$STORAGE_CONTAINER?$UPLOAD_SAS_TOKEN"
 
-./azcopy copy ./"$dirname"/ "$storage_url" --recursive
+azcopy copy ./"$dirname"/ "$storage_url" --recursive
 
 echo "CDN URLs for uploaded files:"
 for file in ./"$dirname"/*; do
     filename=$(basename "$file")
-    cdn_url="https://cyethackassets.azureedge.net/$container_name/$dirname/$filename?$read_token"
+    cdn_url="https://cyethackassets.azureedge.net/$STORAGE_CONTAINER/$dirname/$filename?$READ_SAS_TOKEN"
     echo "URL for $filename is: $cdn_url"
+    echo
 done
