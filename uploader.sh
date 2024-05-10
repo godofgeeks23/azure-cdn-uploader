@@ -10,7 +10,7 @@ azcopy copy ./"$dirname"/ "$storage_url" --recursive
 echo "CDN URLs for uploaded files:"
 for file in ./"$dirname"/*; do
     filename=$(basename "$file")
-    cdn_url="https://cyethackassets.azureedge.net/$STORAGE_CONTAINER/$dirname/$filename?$READ_SAS_TOKEN"
+    cdn_url="https://$AZURE_CDN_ENDPOINT/$STORAGE_CONTAINER/$dirname/$filename?$READ_SAS_TOKEN"
     echo "URL for $filename is: $cdn_url"
     echo
 done
