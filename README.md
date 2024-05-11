@@ -30,3 +30,6 @@ cp sample.env .env
 ```
 bash uploader.sh
 ```
+
+The script will upload the files to Azure Blob Storage and generate the Azure CDN URL.
+
