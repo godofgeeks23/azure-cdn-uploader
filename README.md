@@ -10,7 +10,7 @@ Simple Shell script to upload files to Azure Blob Storage and generate its Azure
 git clone https://github.com/godofgeeks23/azure-cdn-uploader.git
 ```
 
-2. Install the Azcopy CLI
+2. Install the Azcopy CLI tool
 
 ```
 wget https://azcopyvnext.azureedge.net/releases/release-10.24.0-20240326/azcopy_linux_amd64_10.24.0.tar.gz
