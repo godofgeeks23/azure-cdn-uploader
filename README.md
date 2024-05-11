@@ -1,10 +1,14 @@
 # Azure CDN Uploader
 
-Simple Shell script to upload files to Azure Blob Storage and generate its CDN URL.
+Simple Shell script to upload files to Azure Blob Storage and generate its Azure CDN URL.
 
 ## Installation and Usage
 
 1. Clone this repository
+
+```
+git clone https://github.com/godofgeeks23/azure-cdn-uploader.git
+```
 
 2. Install the Azcopy CLI
 
@@ -16,6 +20,10 @@ azcopy --version
 ```
 
 3. Initialize the environment variables - rename `sample.env` to `.env` and fill in the values
+
+```
+cp sample.env .env
+```
 
 4. Run the script
 
