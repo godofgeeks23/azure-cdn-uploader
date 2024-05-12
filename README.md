@@ -33,3 +33,4 @@ bash uploader.sh
 
 The script will upload the files to Azure Blob Storage and generate the Azure CDN URL.
 
+For more details on how to setup Azure Blob Storage and Azure CDN, refer to the [official documentation](https://learn.microsoft.com/en-us/azure/cdn/cdn-create-a-storage-account-with-cdn).
