@@ -12,6 +12,8 @@ git clone https://github.com/godofgeeks23/azure-cdn-uploader.git
 
 2. Install the Azcopy CLI tool
 
+Download the latest version of Azcopy CLI tool from the [official website](https://learn.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10#download-azcopy). Extract the tarball and copy the binary to `/usr/local/bin/`.
+
 ```
 wget https://azcopyvnext.azureedge.net/releases/release-10.24.0-20240326/azcopy_linux_amd64_10.24.0.tar.gz
 tar -xvf azcopy_linux_amd64_10.24.0.tar.gz
