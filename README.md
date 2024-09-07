@@ -24,7 +24,7 @@ azcopy --version
 3. Initialize the environment variables - rename `sample.env` to `.env` and fill in the values
 
 ```
-cp sample.env .env
+mv sample.env .env
 ```
 
 4. Run the script
