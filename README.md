@@ -4,7 +4,7 @@ Simple Bash shell script to upload files to Azure Blob Storage and generate its 
 
 ## Installation and Usage
 
-1. Clone this repository
+1. Clone this github repository
 
 ```
 git clone https://github.com/godofgeeks23/azure-cdn-uploader.git
