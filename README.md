@@ -1,6 +1,6 @@
 # Azure CDN Uploader
 
-Simple Shell script to upload files to Azure Blob Storage and generate its Azure CDN URL.
+Simple Bash shell script to upload files to Azure Blob Storage and generate its Azure CDN URL.
 
 ## Installation and Usage
 
