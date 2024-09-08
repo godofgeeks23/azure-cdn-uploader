@@ -30,7 +30,7 @@ azcopy --version
 mv sample.env .env
 ```
 
-4. Run the script
+4. Finally, run the script
 
 ```
 bash uploader.sh
