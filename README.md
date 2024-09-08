@@ -16,8 +16,11 @@ Download the latest version of Azcopy CLI tool from the [Official Microsoft Azur
 
 ```
 wget https://azcopyvnext.azureedge.net/releases/release-10.24.0-20240326/azcopy_linux_amd64_10.24.0.tar.gz
+
 tar -xvf azcopy_linux_amd64_10.24.0.tar.gz
+
 sudo cp azcopy_linux_amd64_10.24.0/azcopy /usr/local/bin/
+
 azcopy --version
 ```
 
