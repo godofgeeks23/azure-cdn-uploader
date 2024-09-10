@@ -7,7 +7,7 @@ Note: CDN URL will be generated only if the Azure CDN is enabled for the Azure B
 To enable Azure CDN for Azure Blob Storage, refer to the [Official Documentation](https://learn.microsoft.com/en-us/azure/cdn/cdn-create-a-storage-account-with-cdn).
 ```
 
-## Installation and Usage
+## Installation and Usage instructions
 
 1. Clone this github repository
 
