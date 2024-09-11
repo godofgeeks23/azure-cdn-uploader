@@ -2,7 +2,7 @@
 
 A simple shell script to upload files to Azure Blob Storage and generate its CDN enabled URL.
 
-NOTE: CDN URL will be generated only if the Azure CDN is enabled for the Azure Blob Storage account.
+NOTE: CDN URL is generated only if the Azure CDN is enabled for the Azure Blob Storage account.
 ```
 To enable Azure CDN for Azure Blob Storage, refer to the [Official Documentation](https://learn.microsoft.com/en-us/azure/cdn/cdn-create-a-storage-account-with-cdn).
 ```
