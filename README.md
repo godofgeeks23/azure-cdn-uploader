@@ -9,7 +9,7 @@ To enable Azure CDN for Azure Blob Storage, refer to the [Official Documentation
 
 ## Installation and Usage Instructions
 
-1. Clone this github repository
+1. Clone this GitHub repository
 
 ```
 git clone https://github.com/godofgeeks23/azure-cdn-uploader.git
