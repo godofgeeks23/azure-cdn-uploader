@@ -15,7 +15,7 @@ To enable Azure CDN for Azure Blob Storage, refer to the [Official Documentation
 git clone https://github.com/godofgeeks23/azure-cdn-uploader.git
 ```
 
-2. Download + Install the AzCopy-CLI tool
+2. Download & Install the AzCopy-CLI tool
 
 Download the latest version of Azcopy CLI tool from the [Official Microsoft Azure website](https://learn.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10#download-azcopy). Extract the downloaded tarball and copy the binary to `/usr/local/bin/`.
 
