@@ -29,7 +29,7 @@ sudo cp azcopy_linux_amd64_10.24.0/azcopy /usr/local/bin/
 azcopy --version
 ```
 
-3. Initialize the environment variables: rename `sample.env` to `.env` and fill in the values in the file
+3. Initialize the environment variables: rename `sample.env` to `.env` and fill the values in the file
 
 ```
 mv sample.env .env
