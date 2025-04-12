@@ -7,7 +7,7 @@ storage_url="https://$STORAGE_ACCOUNT.blob.core.windows.net/$STORAGE_CONTAINER?$
 
 azcopy copy ./"$dirname"/ "$storage_url" --recursive
 
-echo "CDN URLs for uploaded files:"
+echo "URLs for uploaded files:"
 for file in ./"$dirname"/*; do
     filename=$(basename "$file")
     cdn_url="https://$AZURE_CDN_ENDPOINT/$STORAGE_CONTAINER/$dirname/$filename?$READ_SAS_TOKEN"
