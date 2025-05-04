@@ -11,6 +11,6 @@ echo "URLs for uploaded files:"
 for file in ./"$dirname"/*; do
     filename=$(basename "$file")
     cdn_url="https://$AZURE_CDN_ENDPOINT/$STORAGE_CONTAINER/$dirname/$filename?$READ_SAS_TOKEN"
-    echo "URL for $filename is: $cdn_url"
+    echo "URL for $filename : $cdn_url"
     echo
 done
