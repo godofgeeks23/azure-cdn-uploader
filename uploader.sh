@@ -5,6 +5,7 @@ dirname="files"
 
 storage_url="https://$STORAGE_ACCOUNT.blob.core.windows.net/$STORAGE_CONTAINER?$UPLOAD_SAS_TOKEN"
 
+# upload file s to Azure Blob Storage
 azcopy copy ./"$dirname"/ "$storage_url" --recursive
 
 echo "URLs for uploaded files:"
